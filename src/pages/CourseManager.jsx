@@ -294,7 +294,7 @@ const AddCourseModal = ({ onClose, onAdd }) => {
               onChange={handleChange}
               required
               className="w-full px-4 py-3 bg-white/80 border border-gray-300 rounded-lg focus:outline-none focus:border-purple-500 focus:ring-2 focus:ring-purple-200 text-gray-800"
-              placeholder="e.g., Advanced Chemistry"
+              placeholder="Enter course name"
             />
           </div>
 

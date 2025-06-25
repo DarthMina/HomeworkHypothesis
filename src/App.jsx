@@ -5,6 +5,7 @@ import Dashboard from './pages/Dashboard'
 import ProfilePage from './pages/ProfilePage'
 import PomodoroPage from './pages/PomodoroPage'
 import CourseManager from './pages/CourseManager'
+import HomeworkPage from './pages/HomeworkPage'
 import Shop from './pages/Shop'
 import { useProfile } from './hooks/useProfile'
 
@@ -47,6 +48,10 @@ function App() {
           <Route 
             path="/courses" 
             element={profile ? <CourseManager /> : <Navigate to="/" />} 
+          />
+          <Route 
+            path="/homework" 
+            element={profile ? <HomeworkPage /> : <Navigate to="/" />} 
           />
           <Route 
             path="/shop" 
