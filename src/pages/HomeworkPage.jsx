@@ -290,10 +290,11 @@ const AddTaskModal = ({ onClose, onAdd, courses }) => {
 
         <form onSubmit={handleSubmit} className="space-y-4">
           <div>
-            <label className="block text-sm font-medium text-gray-700 mb-2">
+            <label htmlFor="task-title" className="block text-sm font-medium text-gray-700 mb-2">
               Task Title *
             </label>
             <input
+              id="task-title"
               type="text"
               name="title"
               value={formData.title}
@@ -305,10 +306,11 @@ const AddTaskModal = ({ onClose, onAdd, courses }) => {
           </div>
 
           <div>
-            <label className="block text-sm font-medium text-gray-700 mb-2">
+            <label htmlFor="task-type" className="block text-sm font-medium text-gray-700 mb-2">
               Task Type *
             </label>
             <select
+              id="task-type"
               name="taskType"
               value={formData.taskType}
               onChange={handleChange}
@@ -322,10 +324,11 @@ const AddTaskModal = ({ onClose, onAdd, courses }) => {
           </div>
 
           <div>
-            <label className="block text-sm font-medium text-gray-700 mb-2">
+            <label htmlFor="task-course" className="block text-sm font-medium text-gray-700 mb-2">
               Course *
             </label>
             <select
+              id="task-course"
               name="courseId"
               value={formData.courseId}
               onChange={handleChange}
@@ -342,10 +345,11 @@ const AddTaskModal = ({ onClose, onAdd, courses }) => {
           </div>
 
           <div>
-            <label className="block text-sm font-medium text-gray-700 mb-2">
+            <label htmlFor="task-deadline" className="block text-sm font-medium text-gray-700 mb-2">
               Deadline *
             </label>
             <input
+              id="task-deadline"
               type="date"
               name="deadline"
               value={formData.deadline}
@@ -356,10 +360,11 @@ const AddTaskModal = ({ onClose, onAdd, courses }) => {
           </div>
 
           <div>
-            <label className="block text-sm font-medium text-gray-700 mb-2">
+            <label htmlFor="task-description" className="block text-sm font-medium text-gray-700 mb-2">
               Description (Optional)
             </label>
             <textarea
+              id="task-description"
               name="description"
               value={formData.description}
               onChange={handleChange}

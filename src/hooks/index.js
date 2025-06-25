@@ -1,4 +1,5 @@
 export { useProfile } from './useProfile'
 export { useXP } from './useXP'
 export { useCourses } from './useCourses'
-export { useTasks } from './useTasks' 
+export { useTasks } from './useTasks'
+export { useShop } from './useShop' 

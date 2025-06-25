@@ -10,7 +10,7 @@ const Navigation = () => {
     { path: '/pomodoro', label: 'Timer', icon: '⏰' },
     { path: '/courses', label: 'Courses', icon: '📚' },
     { path: '/homework', label: 'Tasks', icon: '📝' },
-    { path: '/shop', label: 'Shop', icon: '🛍️' },
+    { path: '/shop', label: 'Shop', icon: '🛒' },
     { path: '/profile', label: 'Profile', icon: '👤' }
   ]
 

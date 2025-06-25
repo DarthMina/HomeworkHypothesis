@@ -1,0 +1,302 @@
+{
+  "banners": {
+    "static": [
+      {
+        "id": "static_galaxy",
+        "name": "Galaxy Pattern",
+        "price": 150,
+        "emoji": "🌌",
+        "description": "Starry night sky pattern",
+        "preview": "bg-gradient-to-br from-purple-900 via-blue-900 to-indigo-900"
+      },
+      {
+        "id": "static_laboratory",
+        "name": "Laboratory Grid",
+        "price": 150,
+        "emoji": "🔬",
+        "description": "Scientific grid pattern",
+        "preview": "bg-gradient-to-br from-gray-800 via-blue-800 to-cyan-700"
+      },
+      {
+        "id": "static_molecules",
+        "name": "Molecular Structure",
+        "price": 150,
+        "emoji": "⚗️",
+        "description": "Chemical bond pattern",
+        "preview": "bg-gradient-to-br from-green-800 via-teal-700 to-cyan-600"
+      }
+    ],
+    "colored": [
+      {
+        "id": "colored_purple",
+        "name": "Purple Nebula",
+        "price": 80,
+        "emoji": "💜",
+        "description": "Soft purple gradient",
+        "preview": "bg-gradient-to-br from-purple-400 via-pink-400 to-purple-600"
+      },
+      {
+        "id": "colored_blue",
+        "name": "Ocean Depths",
+        "price": 80,
+        "emoji": "💙",
+        "description": "Deep blue gradient",
+        "preview": "bg-gradient-to-br from-blue-400 via-cyan-400 to-blue-600"
+      },
+      {
+        "id": "colored_green",
+        "name": "Emerald Forest",
+        "price": 80,
+        "emoji": "💚",
+        "description": "Rich green gradient",
+        "preview": "bg-gradient-to-br from-green-400 via-emerald-400 to-green-600"
+      },
+      {
+        "id": "colored_pink",
+        "name": "Rose Garden",
+        "price": 80,
+        "emoji": "🌸",
+        "description": "Soft pink gradient",
+        "preview": "bg-gradient-to-br from-pink-400 via-rose-400 to-pink-600"
+      }
+    ],
+    "animated": [
+      {
+        "id": "animated_aurora",
+        "name": "Aurora Borealis",
+        "price": 300,
+        "emoji": "🌌",
+        "description": "Moving northern lights",
+        "preview": "bg-gradient-to-br from-green-400 via-blue-400 to-purple-400 animate-pulse"
+      },
+      {
+        "id": "animated_quantum",
+        "name": "Quantum Field",
+        "price": 300,
+        "emoji": "⚛️",
+        "description": "Pulsing quantum particles",
+        "preview": "bg-gradient-to-br from-cyan-400 via-blue-400 to-indigo-400 animate-pulse"
+      },
+      {
+        "id": "animated_neon",
+        "name": "Neon City",
+        "price": 300,
+        "emoji": "✨",
+        "description": "Glowing neon lights",
+        "preview": "bg-gradient-to-br from-pink-400 via-purple-400 to-cyan-400 animate-pulse"
+      }
+    ]
+  },
+  "icons": {
+    "static": [
+      {
+        "id": "static_atom",
+        "name": "Atom",
+        "price": 80,
+        "emoji": "⚛️",
+        "description": "Classic atom symbol"
+      },
+      {
+        "id": "static_dna",
+        "name": "DNA Helix",
+        "price": 80,
+        "emoji": "🧬",
+        "description": "Double helix structure"
+      },
+      {
+        "id": "static_microscope",
+        "name": "Microscope",
+        "price": 80,
+        "emoji": "🔬",
+        "description": "Scientific observation"
+      },
+      {
+        "id": "static_flask",
+        "name": "Flask",
+        "price": 80,
+        "emoji": "🧪",
+        "description": "Chemistry experiments"
+      },
+      {
+        "id": "static_rocket",
+        "name": "Rocket",
+        "price": 80,
+        "emoji": "🚀",
+        "description": "Space exploration"
+      },
+      {
+        "id": "static_brain",
+        "name": "Brain",
+        "price": 80,
+        "emoji": "🧠",
+        "description": "Neuroscience focus"
+      },
+      {
+        "id": "static_planet",
+        "name": "Planet",
+        "price": 80,
+        "emoji": "🪐",
+        "description": "Astronomical studies"
+      },
+      {
+        "id": "static_crystal",
+        "name": "Crystal",
+        "price": 80,
+        "emoji": "💎",
+        "description": "Crystalline structure"
+      }
+    ],
+    "animated": [
+      {
+        "id": "animated_spinning_atom",
+        "name": "Spinning Atom",
+        "price": 200,
+        "emoji": "⚛️",
+        "description": "Rotating atom symbol",
+        "animation": "animate-spin"
+      },
+      {
+        "id": "animated_pulsing_dna",
+        "name": "Pulsing DNA",
+        "price": 200,
+        "emoji": "🧬",
+        "description": "Breathing helix structure",
+        "animation": "animate-pulse"
+      },
+      {
+        "id": "animated_glowing_microscope",
+        "name": "Glowing Microscope",
+        "price": 200,
+        "emoji": "🔬",
+        "description": "Luminous scientific tool",
+        "animation": "animate-pulse"
+      },
+      {
+        "id": "animated_bubbling_flask",
+        "name": "Bubbling Flask",
+        "price": 200,
+        "emoji": "🧪",
+        "description": "Active chemical reaction",
+        "animation": "animate-bounce"
+      },
+      {
+        "id": "animated_rocket_launch",
+        "name": "Rocket Launch",
+        "price": 200,
+        "emoji": "🚀",
+        "description": "Liftoff sequence",
+        "animation": "animate-bounce"
+      },
+      {
+        "id": "animated_thinking_brain",
+        "name": "Thinking Brain",
+        "price": 200,
+        "emoji": "🧠",
+        "description": "Active neural network",
+        "animation": "animate-pulse"
+      }
+    ]
+  },
+  "themes": {
+    "colored": [
+      {
+        "id": "theme_purple_dream",
+        "name": "Purple Dream",
+        "price": 80,
+        "emoji": "💜",
+        "description": "Soft purple pastel theme",
+        "colors": {
+          "primary": "from-purple-400 to-purple-600",
+          "accent": "from-pink-400 to-pink-600",
+          "background": "from-purple-900 to-indigo-900"
+        }
+      },
+      {
+        "id": "theme_blue_ocean",
+        "name": "Blue Ocean",
+        "price": 80,
+        "emoji": "💙",
+        "description": "Calming blue theme",
+        "colors": {
+          "primary": "from-blue-400 to-blue-600",
+          "accent": "from-cyan-400 to-cyan-600",
+          "background": "from-blue-900 to-indigo-900"
+        }
+      },
+      {
+        "id": "theme_green_forest",
+        "name": "Green Forest",
+        "price": 80,
+        "emoji": "💚",
+        "description": "Nature-inspired theme",
+        "colors": {
+          "primary": "from-green-400 to-green-600",
+          "accent": "from-emerald-400 to-emerald-600",
+          "background": "from-green-900 to-teal-900"
+        }
+      },
+      {
+        "id": "theme_pink_rose",
+        "name": "Pink Rose",
+        "price": 80,
+        "emoji": "🌸",
+        "description": "Gentle pink theme",
+        "colors": {
+          "primary": "from-pink-400 to-pink-600",
+          "accent": "from-rose-400 to-rose-600",
+          "background": "from-pink-900 to-purple-900"
+        }
+      }
+    ],
+    "thematic": [
+      {
+        "id": "theme_neon_cyberpunk",
+        "name": "Neon Cyberpunk",
+        "price": 500,
+        "emoji": "✨",
+        "description": "Bright neon cyberpunk theme",
+        "colors": {
+          "primary": "from-cyan-400 to-cyan-600",
+          "accent": "from-pink-400 to-pink-600",
+          "background": "from-gray-900 to-black"
+        }
+      },
+      {
+        "id": "theme_aurora_northern",
+        "name": "Aurora Northern",
+        "price": 500,
+        "emoji": "🌌",
+        "description": "Northern lights theme",
+        "colors": {
+          "primary": "from-green-400 to-green-600",
+          "accent": "from-blue-400 to-blue-600",
+          "background": "from-indigo-900 to-purple-900"
+        }
+      },
+      {
+        "id": "theme_quantum_space",
+        "name": "Quantum Space",
+        "price": 500,
+        "emoji": "⚛️",
+        "description": "Quantum physics theme",
+        "colors": {
+          "primary": "from-purple-400 to-purple-600",
+          "accent": "from-indigo-400 to-indigo-600",
+          "background": "from-slate-900 to-gray-900"
+        }
+      },
+      {
+        "id": "theme_sunset_warm",
+        "name": "Sunset Warm",
+        "price": 500,
+        "emoji": "🌅",
+        "description": "Warm sunset theme",
+        "colors": {
+          "primary": "from-orange-400 to-orange-600",
+          "accent": "from-red-400 to-red-600",
+          "background": "from-orange-900 to-red-900"
+        }
+      }
+    ]
+  }
+} 

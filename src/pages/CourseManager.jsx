@@ -286,8 +286,9 @@ const AddCourseModal = ({ onClose, onAdd }) => {
         <form onSubmit={handleSubmit} className="space-y-6">
           {/* Course Name */}
           <div>
-            <label className="block text-sm font-medium mb-2 text-gray-700">Course Name *</label>
+            <label htmlFor="course-name" className="block text-sm font-medium mb-2 text-gray-700">Course Name *</label>
             <input
+              id="course-name"
               type="text"
               name="name"
               value={formData.name}
@@ -382,8 +383,9 @@ const AddCourseModal = ({ onClose, onAdd }) => {
 
           {/* Period */}
           <div>
-            <label className="block text-sm font-medium mb-2 text-gray-700">Period</label>
+            <label htmlFor="course-period" className="block text-sm font-medium mb-2 text-gray-700">Period</label>
             <select
+              id="course-period"
               name="period"
               value={formData.period}
               onChange={handleChange}
@@ -398,9 +400,10 @@ const AddCourseModal = ({ onClose, onAdd }) => {
 
           {/* Exam Types */}
           <div>
-            <label className="block text-sm font-medium mb-2 text-gray-700">Exam Types</label>
+            <label htmlFor="exam-type-input" className="block text-sm font-medium mb-2 text-gray-700">Exam Types</label>
             <div className="flex space-x-2">
               <input
+                id="exam-type-input"
                 type="text"
                 value={newExamType}
                 onChange={(e) => setNewExamType(e.target.value)}
@@ -436,8 +439,9 @@ const AddCourseModal = ({ onClose, onAdd }) => {
 
           {/* Course Catalog Link */}
           <div>
-            <label className="block text-sm font-medium mb-2 text-gray-700">Course Catalog Link (Optional)</label>
+            <label htmlFor="course-catalog-link" className="block text-sm font-medium mb-2 text-gray-700">Course Catalog Link (Optional)</label>
             <input
+              id="course-catalog-link"
               type="url"
               name="catalogLink"
               value={formData.catalogLink}
@@ -457,8 +461,9 @@ const AddCourseModal = ({ onClose, onAdd }) => {
 
           {/* Description */}
           <div>
-            <label className="block text-sm font-medium mb-2 text-gray-700">Description (Optional)</label>
+            <label htmlFor="course-description" className="block text-sm font-medium mb-2 text-gray-700">Description (Optional)</label>
             <textarea
+              id="course-description"
               name="description"
               value={formData.description}
               onChange={handleChange}
