@@ -1,0 +1,23 @@
+export const levelTitles = {
+  0: "Lab Assistant",
+  5: "Caffeine Catalyst",
+  10: "Molecule Mage",
+  15: "Quantum Quirker",
+  20: "Neutron Navigator",
+  25: "Proton Pioneer",
+  30: "Electron Enthusiast",
+  35: "Atom Architect",
+  40: "Chemical Conjurer",
+  45: "Physics Phenom",
+  50: "Biology Buff",
+  55: "Chemistry Champion",
+  60: "Mathematics Master",
+  65: "Engineering Expert",
+  70: "Computer Science Sage",
+  75: "Astronomy Ace",
+  80: "Geology Genius",
+  85: "Psychology Pro",
+  90: "Neuroscience Ninja",
+  95: "Quantum Physicist",
+  100: "Nobel Laureate"
+} 
